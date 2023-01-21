@@ -68,9 +68,10 @@
         grid-gap: 1rem;
     }
     .card-1{
+        
         position: relative;
         left: 10%;
-        height: 100vh;
+        height: 70vh;
         background-color: #ffff;
     }
 }
