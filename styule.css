@@ -239,12 +239,18 @@ margin-bottom: 10px;
     font-weight: bold;
 }
 .user-1{}
+.user-1 p{
+    margin-top: 5px;
+}
 .user-1 h5{
+    
     background-color: #6a6dfb;
     width: 40px;
     height: 40px;
     line-height: 40px;
-    border-radius: 50%;
+     text-align: center;
+     border-radius: 50%;
+    
  
 }
 .user-1 p{
