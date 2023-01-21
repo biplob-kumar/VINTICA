@@ -220,7 +220,6 @@ li{
 .pricin-section{
     background-color: #f8f9fa;
 }
-.card-body{}
 .card-body h3{
     text-align: center;
     font-size: 2rem;
@@ -260,20 +259,16 @@ li{
    
     font-weight: bold;
 }
-.user-1{}
 .user-1 p{
     margin-top: 5px;
 }
 .user-1 h5{
-    
     background-color: #6a6dfb;
     width: 40px;
     height: 40px;
     line-height: 40px;
-     text-align: center;
-     border-radius: 50%;
-    
- 
+    text-align: center;
+    border-radius: 50%;
 }
 .user-1 p{
     margin-left: 10px;
@@ -304,18 +299,14 @@ input#submit {
     
     justify-self: center;
 }
-.footer-head{}
 .footer-head h5{
     margin-left:28px;
     font-weight: 700;
 }
-.footer-head ul{}
 .footer-head ul li{
     color: rgb(185, 188, 190);
     display: block;
 }
-
-
 hr{
     color: #6a6dfb;
 }
@@ -331,6 +322,5 @@ hr{
     border-radius: 50%;
     margin: 5px ;
 }
-
 
 /*  footer css end  */
