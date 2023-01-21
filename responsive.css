@@ -74,7 +74,7 @@
     .card-1{
         position: relative;
         left: 10%;
-        height: 50vh;
+        height: 100vh;
         background-color: #ffff;
     }
 }
