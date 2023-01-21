@@ -148,4 +148,38 @@ h1,h2,h3,h4,h5,h6,a,span{
 }
 /*  feature css end  */
 
+/*  slider css start */
+.slider-start{
+    background-color: #f8f9fa;
+}
+/*  slider css  end  */
+
+/* team-section css start */
+.tem-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+.card{
+    background-color:#f8f9fa ;
+    border: none;
+}
+.user h5{
+margin-bottom: 10px;
+}
+.user i{
+    color: whitesmoke;
+    background-color:#6a6dfb;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 5px ;
+}
+.user i:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+/*  team secrion css end  */
+
 

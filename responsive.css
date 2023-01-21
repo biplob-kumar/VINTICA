@@ -53,4 +53,21 @@
   }
   /*  feature css  end  */
 
+  /* team css start */
+
+  @media only screen and (max-width: 480px) {
+    .tem-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+  }
+  /* team css end */
+/*  */
+@media only screen and (max-width: 480px) {
+    
+}
+/*  */
+
 /*  mobile veresion  n css end  */
+
