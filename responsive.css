@@ -1,0 +1,56 @@
+
+
+/*  mobile veresion  n css staart */
+/*  hero css start */
+@media only screen and (max-width: 480px) {
+    .hero-section{
+        height: 60vh;
+    }
+    .hero-container{
+        position: relative;
+        top: 10%;
+    }
+    .hero-content h2{ 
+        font-size: 2rem;
+    }
+  }
+  /*  hero-css end  */
+
+
+  /*  service css start */
+  @media only screen and (max-width: 480px) {
+  
+    .service-container{
+        grid-template-columns: 1fr;
+    }
+    .service-content img{
+        width: 100%;
+    }
+    
+  }
+
+  /*  service css end  */
+  /*  feature css start */
+  @media only screen and (max-width: 480px) {
+    .feature-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    .feature-left{
+        text-align: center;
+    }
+    .feature-left h6{
+        color: #6a6dfb;
+        margin-bottom: 10px;
+    }
+    .feature-left h4{
+        font-weight: 700;
+    }
+    .feature-left p{
+        color: rgb(135, 128, 128);
+    }
+  }
+  /*  feature css  end  */
+
+/*  mobile veresion  n css end  */

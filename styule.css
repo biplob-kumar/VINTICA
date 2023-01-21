@@ -1,0 +1,151 @@
+/*  google front start */
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Nunito+Sans:ital,wght@0,200;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+/*  google front  end  */
+/*  defaulalr css start */
+body{
+    font-family: 'Mulish', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6,a,span{
+    font-family: 'Nunito Sans', sans-serif;
+}
+ .button a{
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: whitesmoke;
+    background-color: #6a6dfb;
+    transition: .4s ease-in-out;
+}
+.button a:hover{
+    
+    background-color: blue;
+}
+/*  defaulalr css  end  */
+
+/*  nav css start */
+.navbar-light .navbar-brand {
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: whitesmoke;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.bg-dark {
+    background-color: rgb(68 68 67);
+}
+/*  nav css  end  */
+
+/*  hero-section css start */
+.hero-section{
+    background-image:linear-gradient(to right, rgba(21, 21, 22, 0.7), rgba(21, 21, 22, 0.7)) ,url('./img/home-bg.jpg')  ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero-container{
+    position: relative;
+    top: 30%;
+}
+.hero-content{
+    text-align: center;
+}
+.hero-content h6{
+    color: #6a6dfb;
+}
+.hero-content h2{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.hero-content p{
+    margin-bottom: 1rem;
+}
+.hero-content a{
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: whitesmoke;
+    background-color: #6a6dfb;
+    transition: .4s ease-in-out;
+}
+.hero-content a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+/*  hero-section css start */
+
+/*  service css start */
+.service-header span{
+    color: #6a6dfb;
+    font-weight: 700;
+}
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+.service-content h3{
+    font-weight: 700;
+}
+.service-content img{
+    width: 300px;
+}
+/*  service css end  */
+
+/*  Get start css start */
+.Get-start{
+    background-color: #f8f9fa;
+}
+.Get-ready-content h4{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.Get-ready-content a{
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: whitesmoke;
+    background-color: #6a6dfb;
+    border-radius: 20px;
+    transition: .4s ease-in-out;
+}
+.Get-ready-content a:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #f8f9fa;
+    color: black;
+}
+/*  Get start css end  */
+
+/*  feature css start */
+.feature-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.feature-left h6{
+    color: #6a6dfb;
+    margin-bottom: 10px;
+}
+.feature-left h4{
+    font-weight: 700;
+}
+.feature-left p{
+    color: rgb(135, 128, 128);
+}
+/*  feature css end  */
+
+
