@@ -199,7 +199,11 @@ margin-bottom: 10px;
     background-color: #f8f9fa;
 }
 .card-body{}
-.card-body h5{}
+.card-body h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
 .card-body i{
     color: rgb(60, 213, 162);
 }
