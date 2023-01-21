@@ -218,4 +218,38 @@ margin-bottom: 10px;
 }
 /*  pricing-section end  */
 
+/*  blopg-section start */
+.blog-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+.blog-img img{
+    text-align: center;
+    height: auto;
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.blog-content{
+    margin-left: 10px;
+}
+.blog-content h4{
+   
+    font-weight: bold;
+}
+.user-1{}
+.user-1 h5{
+    background-color: #6a6dfb;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+ 
+}
+.user-1 p{
+    margin-left: 10px;
+}
+/*  blopg-section end  */
+
 

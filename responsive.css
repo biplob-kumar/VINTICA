@@ -63,13 +63,14 @@
     }
   }
   /* team css end */
-/*  */
+/*  pricing-section start*/
 @media only screen and (max-width: 480px) {
     .pricing-container{
          
         display: grid;
         grid-template-columns:1fr;
         grid-gap: 1rem;
+        
     }
     .card-1{
         position: relative;
@@ -78,7 +79,23 @@
         background-color: #ffff;
     }
 }
-/*  */
+/* proicing-section end  */
+
+/* blog-section css start */
+@media only screen and (max-width: 480px) {
+    .blog-container{
+        grid-template-columns:  1fr;
+    }
+    .blog-img img{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+   
+}
+/*  blog-section css end  */
 
 /*  mobile veresion  n css end  */
 
