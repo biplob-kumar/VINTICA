@@ -107,5 +107,38 @@
 }
 /*   */
 
+/*  footer section start */
+@media only screen and (max-width: 480px) {
+
+/*  footer css start */
+.footer-container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+}
+.foterleft {
+    
+    justify-self: center;
+}
+.footer-head h5{
+    margin-left:28px;
+    font-weight: 700;
+}
+
+.footer-head ul li{
+    color: rgb(185, 188, 190);
+    display: block;
+}
+.service-header h3{
+    font-size: 2rem;
+}
+
+}
+
+
+/*  footer css end  */
+
+/*  footer section end  */
+
 /*  mobile veresion  n css end  */
 

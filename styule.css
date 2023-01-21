@@ -27,6 +27,13 @@ h1,h2,h3,h4,h5,h6,a,span{
 li{
     list-style: none;
 }
+/*  curosel  border */
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
 /*  defaulalr css  end  */
 
 /*  nav css start */
@@ -54,7 +61,10 @@ li{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 30% 100%, 0 86%);
+    
+
+} 
 .hero-container{
     position: relative;
     top: 30%;
@@ -63,6 +73,7 @@ li{
     text-align: center;
 }
 .hero-content h6{
+    font-size: 1.5rem;
     color: #6a6dfb;
 }
 .hero-content h2{
@@ -93,6 +104,9 @@ li{
 .service-header span{
     color: #6a6dfb;
     font-weight: 700;
+}
+.service-header h3{
+    font-size: 2.5rem;
 }
 .service-container{
     display: grid;
@@ -140,10 +154,15 @@ li{
     grid-gap: 1rem;
 }
 .feature-left h6{
+    font-size: 1.5rem;
     color: #6a6dfb;
     margin-bottom: 10px;
 }
+.feature-left p{
+    line-height: 1.8rem;
+}
 .feature-left h4{
+    font-size: 2rem;
     font-weight: 700;
 }
 .feature-left p{
@@ -167,8 +186,11 @@ li{
     background-color:#f8f9fa ;
     border: none;
 }
+.user img{
+    margin-bottom: 10px;
+}
 .user h5{
-margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .user i{
     color: whitesmoke;
@@ -272,6 +294,43 @@ input#submit {
     color: whitesmoke;
 }
 /* contactr css end  */
+/*  footer css start */
+.footer-container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+}
+.foterleft {
+    
+    justify-self: center;
+}
+.footer-head{}
+.footer-head h5{
+    margin-left:28px;
+    font-weight: 700;
+}
+.footer-head ul{}
+.footer-head ul li{
+    color: rgb(185, 188, 190);
+    display: block;
+}
 
 
+hr{
+    color: #6a6dfb;
+}
+.socila {
+    text-align: center;
+}
+.socila i{
+    color: whitesmoke;
+    background-color:#6a6dfb;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 5px ;
+}
 
+
+/*  footer css end  */
