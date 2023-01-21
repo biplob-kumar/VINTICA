@@ -258,4 +258,20 @@ margin-bottom: 10px;
 }
 /*  blopg-section end  */
 
+/* contactr css start */
+.copntact-section{
+    background-color: #f8f9fa;
+}
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+input#submit {
+    background-color: #6a6dfb;
+    color: whitesmoke;
+}
+/* contactr css end  */
+
+
 
